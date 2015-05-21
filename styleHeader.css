@@ -1,0 +1,41 @@
+header {
+	box-shadow: 0 0 1px rgba(0,0,0,0.15);
+	height: 70px;
+	background-color: rgba(255, 255, 255, 1);
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+header img {
+	max-height: 100%;
+}
+
+.logo {
+	padding: 10px 5px;
+}
+
+.search {
+	padding: 10px;
+}
+
+.middle-wrapper {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	height: 70px;
+	text-align: center;
+}
+
+.middle-wrapper img {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.published {
+	padding: 12px;
+}
